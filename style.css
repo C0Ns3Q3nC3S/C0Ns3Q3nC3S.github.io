@@ -17,19 +17,14 @@ html, body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 460px 600px 1fr;
-  grid-template-areas:
-    ". left right .";
-  column-gap: 60px;
-  justify-items: left;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
   min-height: 100%;
 }
 
 .left {
-  grid-area: left;
-  aspect-ratio: 1/1;
+  display: flex
 }
 
 .right {
