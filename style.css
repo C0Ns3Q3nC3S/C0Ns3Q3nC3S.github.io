@@ -36,6 +36,12 @@ html, body {
   padding-left: 15px;
 }
 
+
+.image {
+    width: 384px;
+  height: 384px;
+}
+
 .image img {
   max-width: 100%;
   max-height: 100%;
